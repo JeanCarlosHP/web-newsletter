@@ -12,11 +12,32 @@
 html {
   /* Color */
   --background: #5694b7;
+  --white: #fafafa;
 
   /* Font */
   font-size: 62.5%;
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--white);
+}
+
+header .image {
+  background: url('img/wave.svg') no-repeat;
+  color: var(--background);
+
+  position: fixed;
+  z-index: -1;
+
+  width: 100%;
+  height: 100%;
+
+  transform: scale(1.4);
+}
+
+header p {
+  font: bold 2.5rem 'Inter', sans-serif;
+  color: var(--white);
+  text-align: center;
+  padding-top: 2rem;
 }
