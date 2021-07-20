@@ -1,0 +1,22 @@
+﻿/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* ===== VARIABLES ===== */
+html {
+  /* Color */
+  --background: #5694b7;
+
+  /* Font */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--background);
+}
