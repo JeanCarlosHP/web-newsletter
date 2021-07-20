@@ -22,6 +22,26 @@ body {
   background-color: var(--white);
 }
 
+.container {
+  padding: 5rem 5rem 0 5rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20rem 20rem;
+}
+
+.new {
+  font: bold 1.5rem 'Open sans', sans-serif;
+  box-shadow: 5px 5px 50px -14px rgba(0, 0, 0, 0.37);
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  width: 90%;
+}
+
 header .image {
   background: url('img/wave.svg') no-repeat;
   color: var(--background);
