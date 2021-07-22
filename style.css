@@ -47,6 +47,32 @@ header p {
   font: normal 1.7rem 'Open sans', sans-serif;
 }
 
+main .link-newsletter {
+  display: block;
+  margin-top: 8rem;
+  text-align: center;
+
+  font: bold 1.7rem 'Open sans', sans-serif;
+}
+
+main .link-newsletter button {
+  margin-top: 1.5rem;
+  padding: 1.3rem 2.7rem;
+  border-radius: 0.5rem;
+
+  font: bold 2.3rem 'Poppins', sans-serif;
+
+  background-color: var(--background);
+}
+
+main .link-newsletter button:hover {
+  opacity: 0.9;
+}
+
+main .link-newsletter button a {
+  color: var(--white);
+}
+
 footer {
   height: 5rem;
   background-color: var(--background);
