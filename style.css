@@ -74,24 +74,26 @@ main .link-newsletter button a {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 5rem;
+
   background-color: var(--background);
 }
 
 footer .icons {
   display: flex;
-  justify-content: center;
   gap: 2rem;
-
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-
-  font-size: 3rem;
 }
 
 footer .icons a {
+  height: 3rem;
+
   color: var(--white);
+  font-size: 3rem;
+
   transition: 0.3s;
 }
 
