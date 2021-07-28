@@ -100,3 +100,9 @@ footer .icons a {
 footer .icons a:hover {
   transform: translateY(-0.5rem);
 }
+
+@media (max-width: 767px) {
+  .container-content {
+    margin: 8rem 4rem 8rem 4rem;
+  }
+}
