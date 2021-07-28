@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-from backend.extract_content import EmailContent
+from backend.extract_content import extractContent
 
 app = FastAPI()
 
@@ -26,8 +26,5 @@ async def main(request: Request):
 
 @app.get('/json')
 async def json():
-    emailContent = EmailContent()
 
-    content = emailContent.extractContent()
-
-    return content
+    return extractContent()
